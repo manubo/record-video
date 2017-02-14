@@ -1,0 +1,12 @@
+.video {
+  width: calc(50% - 5rem);
+
+  & + .video {
+    margin-left: 5rem;
+  }
+
+  video {
+    width: 100%;
+    height: 345px;
+  }
+}
